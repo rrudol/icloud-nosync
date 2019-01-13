@@ -1,6 +1,6 @@
 {
   "name": "icloud-nosync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Make iCloud ignore your node_modules",
   "main": "index.js",
   "keywords": [

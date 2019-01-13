@@ -5,6 +5,7 @@
 var shell = require("shelljs");
 
 shell.exec("npm install");
+shell.touch("node_modules/.nosync");
 shell.exec("mv node_modules node_modules.nosync");
 shell.exec("ln -s node_modules.nosync/ node_modules");
 
