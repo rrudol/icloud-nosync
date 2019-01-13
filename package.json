@@ -1,0 +1,17 @@
+{
+  "name": "icloud-nosync",
+  "version": "0.0.2",
+  "description": "Make iCloud ignore your node_modules",
+  "main": "index.js",
+  "keywords": [
+    "icloud"
+  ],
+  "author": "Rafał Rudol <rrrrudol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "icloud-nosync": "./index.js"
+  }
+}
